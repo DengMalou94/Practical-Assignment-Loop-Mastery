@@ -73,25 +73,25 @@
 
 // Multiplication Challenge
 
-// let userNumber = parseInt(prompt("Enter a positive number:"));
+let userNumber = parseInt(prompt("Enter a positive number:"));
 
-// // Prompt the user until a valid positive number is entered
-// while (isNaN(userNumber) || userNumber <= 0) {
-//     userNumber = parseInt(prompt("Invalid input! Please enter a valid positive number:"));
-// }
+// Prompt the user until a valid positive number is entered
+while (isNaN(userNumber) || userNumber <= 0) {
+    userNumber = parseInt(prompt("Invalid input! Please enter a valid positive number:"));
+}
 
-// // Print numbers from 1 to userNumber
-// console.log("Counting from 1 to " + userNumber + ":");
-// for (let i = 1; i <= userNumber; i++) {
-//     console.log(i);
-// }
+// Print numbers from 1 to userNumber
+console.log("Counting from 1 to " + userNumber + ":");
+for (let i = 1; i <= userNumber; i++) {
+    console.log(i);
+}
 
-// // Using a while loop to calculate the product (factorial) of numbers from 1 to userNumber
-// let product = 1; // Start with 1 since it's the multiplicative identity
-// let i = 1;
-// while (i <= userNumber) {
-//     product *= i; // Multiply each number
-//     i++; 
-// }
+// Using a while loop to calculate the product (factorial) of numbers from 1 to userNumber
+let product = 1; // Start with 1 since it's the multiplicative identity
+let i = 1;
+while (i <= userNumber) {
+    product *= i; // Multiply each number
+    i++; 
+}
 
-// console.log("The product (factorial) of numbers from 1 to " + userNumber + " is: " + product);
+console.log("The product (factorial) of numbers from 1 to " + userNumber + " is: " + product);
